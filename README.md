@@ -1,5 +1,5 @@
 <!-- ╔═══════════════════════════════════════════════════════════════════╗ -->
-<!-- ║         HYPESOCIETY — CLASSIFIED DOCUMENT // ACCESS GRANTED      ║ -->
+<!-- ║         HYPESOCIETY — CLASSIFIED DOCUMENT // ACCESS GRANTED       ║ -->
 <!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
@@ -8,10 +8,10 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║  > SYSTEM BOOT SEQUENCE INITIATED...                            ║
-║  > LOADING MODULES........  [████████████████████] 100%         ║
-║  > IDENTITY VERIFIED: HYPESOCIETY COLLECTIVE                    ║
-║  > 3 NODES ONLINE  //  SIGNAL ENCRYPTED  //  READY             ║
+║  > SYSTEM BOOT SEQUENCE INITIATED...                             ║
+║  > LOADING MODULES........  [████████████████████] 100%          ║
+║  > IDENTITY VERIFIED: HYPESOCIETY COLLECTIVE                     ║
+║  > 3 NODES ONLINE  //  SIGNAL ENCRYPTED  //  READY               ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
@@ -274,9 +274,9 @@ Awaiting handshake...  [ ● ● ● ]
 ```
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
-║   "We don't chase hype. We engineer it."                        ║
+║   "We don't chase hype. We engineer it."                         ║
 ║                                                                  ║
-║                            — HypeSociety, est. 2025             ║
+║                            — HypeSociety, est. 2025              ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
