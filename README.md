@@ -7,12 +7,12 @@
 <!-- <img src="" width="220" alt="HypeSociety Logo"/> -->
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║  > SYSTEM BOOT SEQUENCE INITIATED...                             ║
-║  > LOADING MODULES........  [████████████████████] 100%          ║
-║  > IDENTITY VERIFIED: HYPESOCIETY COLLECTIVE                     ║
-║  > 3 NODES ONLINE  //  SIGNAL ENCRYPTED  //  READY               ║
-╚══════════════════════════════════════════════════════════════════╝
+<!--╔══════════════════════════════════════════════════════════════════╗-->
+<!--║  > SYSTEM BOOT SEQUENCE INITIATED...                             ║-->
+<!--║  > LOADING MODULES........  [████████████████████] 100%          ║-->
+<!--║  > IDENTITY VERIFIED: HYPESOCIETY COLLECTIVE                     ║-->
+<!--║  > 3 NODES ONLINE  //  SIGNAL ENCRYPTED  //  READY               ║-->
+<!--╚══════════════════════════════════════════════════════════════════╝-->
 ```
 
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=650&lines=%3E+initializing+hypesociety.exe...;%3E+three+minds.+one+network.;%3E+%5B+H+Y+P+E+S+O+C+I+E+T+Y+%5D;%3E+we+build+in+the+dark.;%3E+connection+established._%F0%9F%9F%A2" alt="Typing SVG" />
