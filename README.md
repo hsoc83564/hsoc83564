@@ -1,10 +1,115 @@
+<img width="700" height="420" alt="logo_v3_terminal" src="https://github.com/user-attachments/assets/ec175d32-8274-409a-a497-cd72306739d4" />
 <!-- ╔═══════════════════════════════════════════════════════════════════╗ -->
 <!-- ║         HYPESOCIETY — CLASSIFIED DOCUMENT // ACCESS GRANTED      ║ -->
 <!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
 
-<img src="logo.svg" width="220" alt="HypeSociety Logo"/>
+<img src="<svg viewBox="0 0 700 420" width="700" height="420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow-g">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow-sm">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow-c">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="700" height="420" fill="#060606"/>
+
+<!-- Terminal window chrome -->
+<rect x="20" y="20" width="660" height="380" rx="6" fill="#0c0c0c" stroke="#2a2a2a" stroke-width="1.5"/>
+
+<!-- Title bar -->
+<rect x="20" y="20" width="660" height="36" rx="6" fill="#141414"/>
+<rect x="20" y="44" width="660" height="12" fill="#141414"/>
+
+<!-- Traffic lights (fake) -->
+<circle cx="44" cy="38" r="7" fill="#FF5F57" opacity="0.8"/>
+<circle cx="66" cy="38" r="7" fill="#FFBD2E" opacity="0.8"/>
+<circle cx="88" cy="38" r="7" fill="#28CA42" opacity="0.8"/>
+
+<!-- Window title -->
+<text x="350" y="43" font-family="'Courier New',monospace" font-size="12" fill="#555" text-anchor="middle">hypesociety@collective:~</text>
+
+<!-- Scanlines -->
+<rect x="20" y="56" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="72" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="88" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="104" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="120" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="136" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="152" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="168" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="184" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="200" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="216" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="232" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="248" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="264" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="280" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="296" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="312" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="328" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="344" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="360" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+<rect x="20" y="376" width="660" height="1" fill="#00FF41" opacity="0.03"/>
+
+<!-- Line 1: system boot -->
+<text x="44" y="96" font-family="'Courier New',monospace" font-size="12" fill="#555">Last login: encrypted — access level: maximum</text>
+
+<!-- Line 2: prompt + command -->
+<text x="44" y="120" font-family="'Courier New',monospace" font-size="13" fill="#00FF41" filter="url(#glow-sm)">root@collective</text>
+<text x="182" y="120" font-family="'Courier New',monospace" font-size="13" fill="#555">:</text>
+<text x="190" y="120" font-family="'Courier New',monospace" font-size="13" fill="#00FFFF">~/</text>
+<text x="214" y="120" font-family="'Courier New',monospace" font-size="13" fill="#ffffff">$ cat identity.conf</text>
+
+<!-- Output block -->
+<text x="44" y="148" font-family="'Courier New',monospace" font-size="11" fill="#444"># ——————————————————————————————</text>
+<text x="44" y="168" font-family="'Courier New',monospace" font-size="11" fill="#555">NAME</text>
+<text x="120" y="168" font-family="'Courier New',monospace" font-size="11" fill="#444">=</text>
+<text x="134" y="168" font-family="'Courier New',monospace" font-size="13" fill="#00FF41" font-weight="bold" filter="url(#glow-sm)">"HYPESOCIETY"</text>
+<text x="44" y="188" font-family="'Courier New',monospace" font-size="11" fill="#555">TYPE</text>
+<text x="120" y="188" font-family="'Courier New',monospace" font-size="11" fill="#444">=</text>
+<text x="134" y="188" font-family="'Courier New',monospace" font-size="11" fill="#00FFFF">"DEV_COLLECTIVE"</text>
+<text x="44" y="208" font-family="'Courier New',monospace" font-size="11" fill="#555">NODES</text>
+<text x="120" y="208" font-family="'Courier New',monospace" font-size="11" fill="#444">=</text>
+<text x="134" y="208" font-family="'Courier New',monospace" font-size="11" fill="#FF00FF">3</text>
+<text x="44" y="228" font-family="'Courier New',monospace" font-size="11" fill="#555">STATUS</text>
+<text x="120" y="228" font-family="'Courier New',monospace" font-size="11" fill="#444">=</text>
+<text x="134" y="228" font-family="'Courier New',monospace" font-size="11" fill="#00FF41">"OPERATIONAL"</text>
+<text x="44" y="248" font-family="'Courier New',monospace" font-size="11" fill="#555">MISSION</text>
+<text x="120" y="248" font-family="'Courier New',monospace" font-size="11" fill="#444">=</text>
+<text x="134" y="248" font-family="'Courier New',monospace" font-size="11" fill="#ffffff">"We build in the dark."</text>
+<text x="44" y="268" font-family="'Courier New',monospace" font-size="11" fill="#555">ENCRYPT</text>
+<text x="120" y="268" font-family="'Courier New',monospace" font-size="11" fill="#444">=</text>
+<text x="134" y="268" font-family="'Courier New',monospace" font-size="11" fill="#00FFFF">true</text>
+<text x="44" y="288" font-family="'Courier New',monospace" font-size="11" fill="#444"># ——————————————————————————————</text>
+
+<!-- Line: next prompt -->
+<text x="44" y="316" font-family="'Courier New',monospace" font-size="13" fill="#00FF41" filter="url(#glow-sm)">root@collective</text>
+<text x="182" y="316" font-family="'Courier New',monospace" font-size="13" fill="#555">:</text>
+<text x="190" y="316" font-family="'Courier New',monospace" font-size="13" fill="#00FFFF">~/</text>
+<text x="214" y="316" font-family="'Courier New',monospace" font-size="13" fill="#ffffff">$ echo $CREED</text>
+
+<text x="44" y="340" font-family="'Courier New',monospace" font-size="13" fill="#FF00FF" filter="url(#glow-sm)">"We don't chase hype. We engineer it."</text>
+
+<!-- Cursor prompt -->
+<text x="44" y="368" font-family="'Courier New',monospace" font-size="13" fill="#00FF41" filter="url(#glow-sm)">root@collective</text>
+<text x="182" y="368" font-family="'Courier New',monospace" font-size="13" fill="#555">:</text>
+<text x="190" y="368" font-family="'Courier New',monospace" font-size="13" fill="#00FFFF">~/</text>
+<text x="214" y="368" font-family="'Courier New',monospace" font-size="13" fill="#ffffff">$ </text>
+<!-- Blinking cursor rect -->
+<rect x="234" y="354" width="10" height="17" fill="#00FF41" filter="url(#glow-sm)" opacity="0.9"/>
+</svg>
+![Uploading logo_v3_terminal.svg…]()
+" width="220" alt="HypeSociety Logo"/>
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
